@@ -56,9 +56,7 @@ The request body must be a JSON object containing the following keys:
   "frequency_penalty": 0,
   "presence_penalty": 0,
   "stream": false,
-  "max_tokens": 150,
-  "stop": ["stop_sequence"],
-  "prompt_truncate_len": null,
+  "max_tokens": 1000,
   "context_length_exceeded_behavior": "truncate"
 }
 ```
