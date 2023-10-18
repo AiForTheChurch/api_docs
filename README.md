@@ -4,7 +4,7 @@ The Chat Completions API is a powerful tool that generates responses based on a 
 
 ## Endpoint
 
-**POST** `http://api.aiforthechurch.org/inference/v1/chat/completions/`
+**POST** `https://api.aiforthechurch.org/inference/v1/chat/completions/`
 
 ## Authentication
 
