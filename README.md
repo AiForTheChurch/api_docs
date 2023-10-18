@@ -95,7 +95,7 @@ For streaming responses, the `usage` field is included in the final response chu
   "id": "unique-id",
   "object": "chat.completion",
   "created": 1634492800,
-  "model": "accounts/biblemate/models/default",
+  "model": "accounts/your_account/models/default",
   "choices": [
     {
       "index": 0,
@@ -112,6 +112,7 @@ For streaming responses, the `usage` field is included in the final response chu
     "total_tokens": 35
   }
 }
+```
 
 ### Handling the Response
 
