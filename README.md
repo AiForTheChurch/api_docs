@@ -11,7 +11,7 @@ The Chat Completions API is a powerful tool that generates responses based on a 
 Requests to this endpoint require a Bearer token in the Authorization header.
 
 ```
-Authentication: Bearer <api token>
+Authorization: Bearer <api token>
 ```
 
 ## Request Body
