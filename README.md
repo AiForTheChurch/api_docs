@@ -14,6 +14,15 @@ Requests to this endpoint require a Bearer token in the Authorization header.
 Authorization: Bearer <api token>
 ```
 
+## Content-Type: application/json
+For the server to correctly interpret the request body, clients must set the `Content-Type` header to `application/json` when sending requests to the Chat Completions API.
+
+```bash
+Content-Type: application/json
+```
+
+This header ensures that the API can correctly parse the JSON-formatted request body. Without this header, the API may not be able to process the request, leading to errors or unexpected behavior. Always including the Content-Type: application/json header in your API requests is a best practice and ensures reliable communication with the Chat Completions API.
+
 ## Request Body
 
 The request body must be a JSON object containing the following keys:
